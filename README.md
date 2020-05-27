@@ -16,3 +16,22 @@ were run on a consumer grade homelab with the following specifications:
 The docker commands are issued via a Makefile since GPU accelleration flags don't work
 well via docker-compose, and the author doesn't remember all of the flags. For information
 on the commands, run `make help`.
+
+
+### ToDos
+To be deprecated from the readme and added as issues.
+
+#### 30,000 ft. view
+ 1. Download and clean training data
+ 2. For the training data, identify the "field of play" (n.b., starting with 1 or 2 sports
+ with well-defined boundaries)
+ 3. Identify player objects from the camera feed
+ 4. _Follow_ player objects
+ 5. Project player objects to the 2d field of play
+
+
+ #### immediate next steps
+  1. Static images for fields of play to build training set
+    a. mark "Corners" and project to a 2d overlay. By default, standard field sizes will apply
+    b. train a model to identify the corners for the projection
+
