@@ -26,3 +26,7 @@ bash: # access a bash environment in a running torchdev container
 
 ip_addr: # get the ip address of the container (for port forwarding)
 	docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' torchdev
+
+inspect: # Inspection using flake8 and mypy
+  flake8
+  mypy
