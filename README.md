@@ -32,6 +32,6 @@ To be deprecated from the readme and added as issues once fleshed out
 
  #### immediate next steps
   1. Static images for fields of play to build training set
-    * mark "Corners" and project to a 2d overlay. By default, standard field sizes will apply
-    * train a model to identify the corners for the projection
+    1. mark "Corners" and project to a 2d overlay. By default, standard field sizes will apply
+    2. train a model to identify the corners for the projection
 
