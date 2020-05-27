@@ -19,7 +19,7 @@ on the commands, run `make help`.
 
 
 ### ToDos
-To be deprecated from the readme and added as issues.
+To be deprecated from the readme and added as issues once fleshed out
 
 #### 30,000 ft. view
  1. Download and clean training data
@@ -32,6 +32,6 @@ To be deprecated from the readme and added as issues.
 
  #### immediate next steps
   1. Static images for fields of play to build training set
-    a. mark "Corners" and project to a 2d overlay. By default, standard field sizes will apply
-    b. train a model to identify the corners for the projection
+    * mark "Corners" and project to a 2d overlay. By default, standard field sizes will apply
+    * train a model to identify the corners for the projection
 
